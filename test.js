@@ -1,3 +1,5 @@
+app = require('express');
+
 app.get(
   '/readiness-probe1',
   (req, res) => res.status(200).send('Ready')
